@@ -62,6 +62,15 @@
       margin: 1em auto;
       max-width: 100%;
     }
+    .chart {
+      text-align: center;
+      margin: 1em auto;
+    }
+    .chart img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1em;
+    }
   </style>
 </head>
 <body>
@@ -81,9 +90,9 @@
       <li><a href="#setup">⚡ Setup and Installation</a></li>
       <li><a href="#frontend">🌐 Frontend Interface</a></li>
       <li><a href="#backend">🔗 Backend API</a></li>
+      <li><a href="#visualizations">📊 Visualizations and Analytics</a></li>
       <li><a href="#branches">🌳 Branch-Based Workflow</a></li>
       <li><a href="#testing">✅ Testing and Deployment</a></li>
-      <li><a href="#outputs">📊 Sample Outputs</a></li>
       <li><a href="#learnings">📚 Learnings and Conclusion</a></li>
     </ul>
   </nav>
@@ -102,8 +111,10 @@
       <li>Provide a user-friendly application for easy interaction with the model.</li>
     </ul>
     <h3>🛤️ Workflow Diagram</h3>
-    <p>Here's the architecture of the system:</p>
-    <img src="workflow-diagram.png" alt="Workflow Diagram">
+    <div class="chart">
+      <p>Here's the architecture of the system:</p>
+      <img src="workflow-diagram.png" alt="Workflow Diagram">
+    </div>
   </section>
 
   <section id="tech-stack">
@@ -165,9 +176,27 @@
     <ul>
       <li><strong>User Authentication:</strong> Secure signup and login functionality.</li>
       <li><strong>Temperature Predictions:</strong> Input weather parameters and get predictions.</li>
+      <li><strong>Advanced Analytics:</strong> Monitor weather trends and visualizations.</li>
       <li><strong>Model Versioning:</strong> Manage multiple models and stages using MLFlow.</li>
       <li><strong>Automated Deployment:</strong> Fully automated CI/CD pipelines.</li>
     </ul>
+  </section>
+
+  <section id="visualizations">
+    <h2>📊 Visualizations and Analytics</h2>
+    <p>The system provides advanced analytics and visualizations, including:</p>
+    <div class="chart">
+      <p><strong>Temperature Trends Over Time</strong></p>
+      <img src="temperature-trends.png" alt="Temperature Trends">
+    </div>
+    <div class="chart">
+      <p><strong>Humidity Levels Across Different Cities</strong></p>
+      <img src="humidity-chart.png" alt="Humidity Chart">
+    </div>
+    <div class="chart">
+      <p><strong>Wind Speed Distribution</strong></p>
+      <img src="wind-speed-distribution.png" alt="Wind Speed Distribution">
+    </div>
   </section>
 
   <section id="setup">
