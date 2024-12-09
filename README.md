@@ -140,48 +140,6 @@
     </ul>
   </section>
 
-  <section id="workflow">
-    <h2>⚙️ Application Workflow</h2>
-    <ol>
-      <li><strong>Data Collection and Preprocessing:</strong>
-        <ul>
-          <li>Fetch data from OpenWeatherMap API.</li>
-          <li>Version-control with DVC.</li>
-          <li>Normalize features like temperature, humidity, and wind speed.</li>
-        </ul>
-      </li>
-      <li><strong>Model Training and Versioning:</strong>
-        <ul>
-          <li>Train a Linear Regression model.</li>
-          <li>Log metrics, parameters, and artifacts in MLFlow.</li>
-        </ul>
-      </li>
-      <li><strong>Frontend and Backend Integration:</strong>
-        <ul>
-          <li>UI for users to input weather conditions.</li>
-          <li>REST APIs for predictions using FastAPI.</li>
-        </ul>
-      </li>
-      <li><strong>CI/CD Pipelines:</strong>
-        <ul>
-          <li>Branch-based workflows via GitHub Actions.</li>
-          <li>Dockerized deployment on Kubernetes.</li>
-        </ul>
-      </li>
-    </ol>
-  </section>
-
-  <section id="features">
-    <h2>✨ Features</h2>
-    <ul>
-      <li><strong>User Authentication:</strong> Secure signup and login functionality.</li>
-      <li><strong>Temperature Predictions:</strong> Input weather parameters and get predictions.</li>
-      <li><strong>Advanced Analytics:</strong> Monitor weather trends and visualizations.</li>
-      <li><strong>Model Versioning:</strong> Manage multiple models and stages using MLFlow.</li>
-      <li><strong>Automated Deployment:</strong> Fully automated CI/CD pipelines.</li>
-    </ul>
-  </section>
-
   <section id="visualizations">
     <h2>📊 Visualizations and Analytics</h2>
     <p>The system provides advanced analytics and visualizations, including:</p>
@@ -197,32 +155,6 @@
       <p><strong>Wind Speed Distribution</strong></p>
       <img src="wind-speed-distribution.png" alt="Wind Speed Distribution">
     </div>
-  </section>
-
-  <section id="setup">
-    <h2>⚡ Setup and Installation</h2>
-    <h3>Prerequisites</h3>
-    <ul>
-      <li>Python 3.8+</li>
-      <li>Docker 🐳</li>
-      <li>Minikube</li>
-      <li>Node.js (if using React)</li>
-    </ul>
-    <h3>Steps</h3>
-    <ol>
-      <li>Clone the repository:
-        <pre><code>git clone https://github.com/your-repo/weather-prediction-mlops.git</code></pre>
-      </li>
-      <li>Install dependencies:
-        <pre><code>pip install -r requirements.txt</code></pre>
-      </li>
-      <li>Set up the database:
-        <pre><code>python manage.py migrate</code></pre>
-      </li>
-      <li>Start the application:
-        <pre><code>docker-compose up</code></pre>
-      </li>
-    </ol>
   </section>
 
   <footer>
